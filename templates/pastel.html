@@ -30,6 +30,7 @@ body {
     background: transparent;
 }
 
+/* IMAGE */
 .pastel-image {
     position: relative;
     z-index: 2;
@@ -42,6 +43,7 @@ body {
     background-repeat: no-repeat;
 }
 
+/* TEXT BOX */
 .pastel-text {
     position: relative;
     z-index: 1;
@@ -50,29 +52,36 @@ body {
     margin: 0 auto;
     margin-top: -100px;
     padding: 30px;
-    padding-bottom: 35px;
     background: #90f0b4;
-    border: 1px solid #e1ffe9;
+    border: 1px solid #edd9df;
     line-height: 1.6;
     font-size: 13px;
+    background:
+        linear-gradient(#90f0b4, #90f0b4) padding-box,
+        linear-gradient(90deg, 	#74e581, #e1ffe9, #74e581) border-box;
+
+    border: 2px solid transparent;
     clip-path: polygon(0 0, 63% 10%, 100% 17%, 100% 100%, 0 100%, 0% 50%);
 }
 
+/* TITLE OUTSIDE TEXT BOX */
 .pastel-title {
+    width: 650px;
+    margin: 20px auto 8px;
     text-align: center;
     font-size: 27px;
     color: #b47c92;
     letter-spacing: 2px;
-    margin-top: 25px;
-    margin-bottom: 8px;
 }
 
+/* QUOTE OUTSIDE TEXT BOX */
 .pastel-quote {
+    width: 650px;
+    margin: 0 auto;
     text-align: center;
     font-size: 12px;
     font-style: italic;
     color: #a98b96;
-    margin-bottom: 0;
 }
 
 </style>
@@ -97,14 +106,14 @@ body {
 
         You can continue adding your content here.
 
-        <div class="pastel-title">
-            Pastel
-        </div>
+    </div>
 
-        <div class="pastel-quote">
-            "Your quote goes here."
-        </div>
+    <div class="pastel-title">
+        Pastel
+    </div>
 
+    <div class="pastel-quote">
+        "Your quote goes here."
     </div>
 
 </div>
