@@ -41,10 +41,11 @@ body {
     width: 650px;
     min-height: 350px;
     margin: 0 auto;
+    margin-top: -80px;
     padding: 30px;
     padding-bottom: 35px;
-    background: #fffafb;
-    border: 1px solid #edd9df;
+    background: #90f0b4;
+    border: 1px solid #e1ffe9;
     line-height: 1.6;
     font-size: 13px;
 }
