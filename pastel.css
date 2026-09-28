@@ -38,21 +38,15 @@ body {
 .pastel-text {
     position: relative;
     z-index: 1;
-    width: 650px;
+    width: 500px;
     min-height: 350px;
     margin: 0 auto;
-    margin-top: -140px;
+    margin-top: -120px;
     padding: 30px;
     padding-bottom: 35px;
-    background: #90f0b4;
-    border: 1px solid #e1ffe9;
+    background: linear-gradient(to bottom, #90f0b4, #e1ffe9);
     line-height: 1.6;
     font-size: 13px;
-    background:
-        linear-gradient(#90f0b4, #90f0b4) padding-box,
-        linear-gradient(90deg, 	#74e581, #e1ffe9, #74e581) border-box;
-
-    border: 2px solid transparent;
     clip-path: polygon(0 0, 66% 7%, 100% 12%, 100% 100%, 0 100%, 0% 50%);
 }
 
