@@ -11,48 +11,59 @@ body {
 
 body {
     font-family: Georgia, serif;
-    color: transparent;
+    color: #5c4b52;
 }
 
 .pastel-content {
     position: relative;
     width: 700px;
-    margin-top: -100px auto 40px;
+    margin: -100px auto 40px;
     background: transparent;
 }
 
+/* IMAGE */
 .pastel-image {
     position: relative;
     z-index: 2;
-    width: 100%;
+    width: 700px;
     height: 500px;
-    margin-bottom: -25px;
+    margin: 0 auto -25px;
     background-image: url("https://raw.githubusercontent.com/ghettobarbie18/pastel/refs/heads/main/dulce2.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
+/* TEXT BOX */
+.pastel-text {
+    position: relative;
+    z-index: 1;
+    width: 650px;
+    min-height: 350px;
+    margin: 0 auto;
+    padding: 30px;
+    padding-bottom: 35px;
+    background: #fffafb;
+    border: 1px solid #edd9df;
+    line-height: 1.6;
+    font-size: 13px;
+}
+
+/* TITLE */
 .pastel-title {
     text-align: center;
     font-size: 27px;
     color: #b47c92;
     letter-spacing: 2px;
+    margin-top: 25px;
     margin-bottom: 8px;
 }
 
+/* QUOTE */
 .pastel-quote {
     text-align: center;
     font-size: 12px;
     font-style: italic;
     color: #a98b96;
-    margin-bottom: 22px;
-}
-
-.pastel-text {
-    padding: 20px;
-    background: #fffafb;
-    border: 1px solid #edd9df;
-    line-height: 1.6;
-    font-size: 13px;
+    margin-bottom: 0;
 }
