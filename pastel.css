@@ -11,13 +11,13 @@ body {
 
 body {
     font-family: Georgia, serif;
-    color: #5c4b52;
+    color: transparent;
 }
 
 .pastel-content {
     position: relative;
     width: 700px;
-    margin: 100px auto 40px;
+    margin-top: -100px auto 40px;
     background: transparent;
 }
 
@@ -37,7 +37,7 @@ body {
     position: relative;
     z-index: 1;
     padding: 55px 35px 35px;
-    background: transparent;
+    background: #90f0b4;
     box-shadow: 0 5px 20px rgba(120,80,100,0.15);
 }
 
