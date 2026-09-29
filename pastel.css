@@ -41,7 +41,7 @@ body {
     width: 550px;
     min-height: 350px;
     margin: 0 auto;
-    margin-top: -180px;
+    margin-top: -168px;
     padding: 30px;
     text-align: justify;
     background: linear-gradient(to bottom, #90f0b4, #e1ffe9);
@@ -59,7 +59,7 @@ body {
 .pastel-body {
     width: 500px;
     margin: 0 auto;
-    padding: 40px 20px 20px 20px;
+    padding: 120px 20px 20px 20px;
     text-align: justify;
     font-size: 13px;
     line-height: 1.6;
