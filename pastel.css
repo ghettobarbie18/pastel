@@ -19,6 +19,10 @@ body {
     width: 700px;
     margin: 40px auto;
     background: transparent;
+    filter:
+        drop-shadow(0 0 12px rgba(144, 240, 180, 0.55))
+        drop-shadow(0 0 30px rgba(144, 240, 180, 0.4))
+        drop-shadow(0 0 60px rgba(144, 240, 180, 0.25));
 }
 
 /* IMAGE */
@@ -41,7 +45,7 @@ body {
     width: 550px;
     min-height: 350px;
     margin: 0 auto;
-    margin-top: -168px;
+    margin-top: -170px;
     padding: 30px;
     text-align: justify;
     background: linear-gradient(to bottom, #90f0b4, #e1ffe9);
@@ -59,7 +63,7 @@ body {
 .pastel-body {
     width: 500px;
     margin: 0 auto;
-    padding: 120px 20px 20px 20px;
+    padding: 130px 20px 20px 20px;
     text-align: justify;
     font-size: 13px;
     line-height: 1.6;
