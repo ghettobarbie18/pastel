@@ -85,18 +85,30 @@ body {
 /* TITLE */
 .pastel-title {
     text-align: center;
-    font-size: 30px;
+    font-size: 50px;
     color: #b47c92;
     letter-spacing: 4px;
     font-family: "Fleur De Leah", cursive;
-    margin-top: 15px;
+    margin-top: 5px;
     margin-bottom: 8px;
+    background: linear-gradient(
+        to right,
+        #b47c92,
+        #e8b8ca,
+        #90f0b4,
+        #b47c92
+    );
+
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
 }
 
 /* QUOTE */
 .pastel-quote {
     text-align: center;
-    font-size: 12px;
+    font-size: 20px;
     font-style: italic;
     font-family: "Lovers Quarrel", cursive;
     color: #a98b96;
