@@ -21,18 +21,12 @@ body {
     background: transparent;
 }
 
-.pastel-images {
-    display: flex;
-    justify-content: center;
-    gap: 8px;
-    margin: 20px auto;
-    margin-right:-80px;
-}
-
-    .pastel-images img {
-    width: 40px;
-    height: 40px;
+.pastel-image-small {
+    display: block;
+    width: 150px;
+    height: 100px;
     object-fit: cover;
+    margin: 20px auto;
 }
 
 /* IMAGE */
