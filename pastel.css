@@ -24,11 +24,12 @@ body {
 .pastel-image-small {
     position: relative;
     z-index: 2;
-    width: 130px;
-    height: 70px;
+    width: 250px;
+    height: 180px;
     object-fit: cover;
     margin: 20px auto;
-    margin-right: -120px;
+    float: right;
+    margin-right: 50px;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
