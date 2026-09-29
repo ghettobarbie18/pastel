@@ -6,7 +6,6 @@
 <title>Pastel Template</title>
 
 <style>
-
 * {
     box-sizing: border-box;
 }
@@ -26,7 +25,7 @@ body {
 .pastel-content {
     position: relative;
     width: 700px;
-    margin: -100px auto 40px;
+    margin: 40px auto;
     background: transparent;
 }
 
@@ -36,7 +35,7 @@ body {
     z-index: 2;
     width: 700px;
     height: 500px;
-    margin: 0 auto -25px;
+    margin: 0 auto;
     background-image: url("https://raw.githubusercontent.com/ghettobarbie18/pastel/refs/heads/main/dulce2.png");
     background-size: cover;
     background-position: center;
@@ -45,23 +44,30 @@ body {
 
 /* TEXT BOX */
 .pastel-text {
+    position: relative;
+    z-index: 1;
     width: 550px;
     min-height: 350px;
     margin: 0 auto;
-    margin-top: -168px;
     padding: 30px;
-    padding-top: 170px;
     text-align: justify;
     background: linear-gradient(to bottom, #90f0b4, #e1ffe9);
-    clip-path: polygon(0 0, 55% 6%, 100% 11%, 100% 100%, 0 100%, 0% 50%);
+    clip-path: polygon(
+        0 0,
+        55% 6%,
+        100% 11%,
+        100% 100%,
+        0 100%,
+        0 50%
+    );
 }
 
+/* BODY TEXT */
 .pastel-body {
-    width: 250px;
-    height: 250px;
+    width: 300px;
     margin-left: auto;
     margin-right: -80px;
-    padding: 50px 20px 20px 20px;
+    padding: 20px;
     text-align: justify;
     font-size: 13px;
     line-height: 1.6;
@@ -69,27 +75,26 @@ body {
     overflow-y: auto;
 }
 
-/* TITLE OUTSIDE TEXT BOX */
+/* TITLE */
 .pastel-title {
-    width: 650px;
-    margin: 20px auto 8px;
     text-align: center;
     font-size: 27px;
     color: #b47c92;
     letter-spacing: 2px;
+    margin-top: 25px;
+    margin-bottom: 8px;
 }
 
-/* QUOTE OUTSIDE TEXT BOX */
+/* QUOTE */
 .pastel-quote {
-    width: 650px;
-    margin: 0 auto;
     text-align: center;
     font-size: 12px;
     font-style: italic;
     color: #a98b96;
+    margin-bottom: 0;
 }
-
 </style>
+
 </head>
 
 <body>
@@ -100,31 +105,25 @@ body {
 
     <div class="pastel-text">
 
-    <div class="pastel-body">
-        Lorem ipsum dolor sit amet consectetur adipiscing elit eum. Est est voluptatum dolorem repellendus mollitia nihil nisi omnis esse dolorum vel. Facere at in quidem in animi ea eligendi ex. Est proident est placeat assumenda mollit eiusmod non culpa mollit deserunt. Optio est dolores et in cumque.
+        <div class="pastel-body">
+
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean quis mattis tortor, vitae posuere est. Pellentesque molestie sapien eu hendrerit finibus. Integer eget justo a dolor dapibus congue id fringilla diam. Nunc tellus est, egestas consequat augue et, tempus molestie augue. Ut vel dolor orci. Nulla vitae mi ut odio tincidunt vestibulum. Suspendisse viverra, risus ac molestie mattis, ipsum sapien cursus sapien, consequat porta risus arcu a odio. Cras cursus est non enim suscipit, at tristique elit accumsan. Cras eros purus, imperdiet in porta et, varius id nulla. Aenean id turpis vel est gravida tincidunt vel in metus. Donec tristique pulvinar orci eu accumsan.
 <br>
-Est possimus nulla tempore facilis harum id rerum aliqua dolor laborum. Qui et et quos est quod esse. Eum id eos quis in voluptas. Elit tempor libero excepturi quibusdam quod. Nulla omnis pariatur reprehenderit omnis animi dolor velit repellendus.
+Cras condimentum vulputate massa in commodo. Sed leo neque, dapibus nec dolor id, accumsan fringilla mauris. Donec ultricies dolor a est porttitor sollicitudin. Mauris nisi magna, egestas quis lobortis vel, commodo sit amet arcu. Sed suscipit purus eget neque porttitor rhoncus. Phasellus consequat sit amet lacus ut pretium. Nullam laoreet justo dui, nec finibus orci laoreet at. Phasellus aliquam lorem sed egestas efficitur. Nam aliquet mi at risus congue, vitae cursus urna fringilla. Sed consequat gravida magna, quis eleifend mauris porttitor sit amet. Sed tristique leo ac tempus egestas.
 <br>
-Quas proident ea laboris odio aliqua. Nulla est placeat dignissimos sunt do molestias rerum ut eu soluta mollitia. Deserunt quas laborum deleniti repellendus libero quidem eligendi dignissimos. Pariatur dolor nulla rerum voluptate quod mollitia voluptate.
-<br>
-        Lorem ipsum dolor sit amet consectetur adipiscing elit eum. Est est voluptatum dolorem repellendus mollitia nihil nisi omnis esse dolorum vel. Facere at in quidem in animi ea eligendi ex. Est proident est placeat assumenda mollit eiusmod non culpa mollit deserunt. Optio est dolores et in cumque.
-<br>
-Est possimus nulla tempore facilis harum id rerum aliqua dolor laborum. Qui et et quos est quod esse. Eum id eos quis in voluptas. Elit tempor libero excepturi quibusdam quod. Nulla omnis pariatur reprehenderit omnis animi dolor velit repellendus.
-<br>
-Quas proident ea laboris odio aliqua. Nulla est placeat dignissimos sunt do molestias rerum ut eu soluta mollitia. Deserunt quas laborum deleniti repellendus libero quidem eligendi dignissimos. Pariatur dolor nulla rerum voluptate quod mollitia voluptate.
+Morbi facilisis lectus in mauris fermentum, et aliquam risus commodo. Praesent aliquet, libero quis efficitur bibendum, nisi leo pellentesque neque, in posuere magna nibh nec urna. Nam consectetur leo ultricies condimentum vulputate. Phasellus dignissim metus in dui commodo, at iaculis massa sollicitudin. Phasellus egestas, risus et porta porta, enim arcu mattis libero, sed vulputate nisi magna et elit. Morbi condimentum imperdiet congue. Proin consectetur diam et accumsan lobortis. Aenean sed sapien at mi bibendum dictum id eget nunc. Nulla odio mauris, vehicula vitae ornare eget, elementum in mi. Aliquam nec elit ut dui varius dapibus.
+
+        </div>
 
     </div>
 
-</div>
-
-</div>
- <div class="pastel-title">
-        Pastel
+    <div class="pastel-title">
+        Dulce Nocturne
     </div>
 
     <div class="pastel-quote">
         your eyes taste like candied grapes
-        you should hear the sound they make when they pop
+        you should hear the sound they make when they <i>pop</i>
     </div>
 
 </div>
