@@ -1,11 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <title>Pastel Template</title>
 
+<!-- GOOGLE FONTS -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fleur+De+Leah&family=Lovers+Quarrel&display=swap" rel="stylesheet">
+
 <style>
+
 * {
     box-sizing: border-box;
 }
@@ -46,7 +54,7 @@ body {
     background-repeat: no-repeat;
 }
 
-/* FLOATING BOTTOM-LEFT IMAGE */
+/* FLOATING FLOWER */
 .pastel-flower {
     position: absolute;
     left: -50px;
@@ -59,6 +67,8 @@ body {
 
 /* TEXT BOX */
 .pastel-text {
+    position: relative;
+    z-index: 3;
     width: 550px;
     min-height: 350px;
     margin: 0 auto;
@@ -79,7 +89,7 @@ body {
 /* BODY TEXT */
 .pastel-body {
     position: relative;
-    z-index: 5;
+    z-index: 10;
     width: 500px;
     margin: 0 auto;
     padding: 140px 20px 20px 20px;
@@ -92,24 +102,28 @@ body {
 
 /* TITLE */
 .pastel-title {
+    position: relative;
+    z-index: 10;
     text-align: center;
     font-size: 30px;
     color: #b47c92;
     letter-spacing: 4px;
     font-family: "Fleur De Leah", cursive;
-    margin-top: 25px;
+    margin-top: 15px;
     margin-bottom: 8px;
 }
 
 /* QUOTE */
 .pastel-quote {
+    position: relative;
+    z-index: 10;
     text-align: center;
     font-size: 12px;
-    font-style: italic;
     font-family: "Lovers Quarrel", cursive;
     color: #a98b96;
     margin-bottom: 0;
 }
+
 </style>
 
 </head>
@@ -119,10 +133,10 @@ body {
 <div class="pastel-content">
 
     <img
-    class="pastel-flower"
-    src="https://cdn.pixabay.com/photo/2023/03/15/20/25/lilies-7855354_1280.png"
-    alt=""
->
+        class="pastel-flower"
+        src="https://cdn.pixabay.com/photo/2023/03/15/20/25/lilies-7855354_1280.png"
+        alt=""
+    >
 
     <div class="pastel-image"></div>
 
@@ -136,6 +150,8 @@ Cras condimentum vulputate massa in commodo. Sed leo neque, dapibus nec dolor id
             
 Morbi facilisis lectus in mauris fermentum, et aliquam risus commodo. Praesent aliquet, libero quis efficitur bibendum, nisi leo pellentesque neque, in posuere magna nibh nec urna. Nam consectetur leo ultricies condimentum vulputate. Phasellus dignissim metus in dui commodo, at iaculis massa sollicitudin. Phasellus egestas, risus et porta porta, enim arcu mattis libero, sed vulputate nisi magna et elit. Morbi condimentum imperdiet congue. Proin consectetur diam et accumsan lobortis. Aenean sed sapien at mi bibendum dictum id eget nunc. Nulla odio mauris, vehicula vitae ornare eget, elementum in mi. Aliquam nec elit ut dui varius dapibus.
 
+
+
         </div>
 
     </div>
@@ -146,7 +162,7 @@ Morbi facilisis lectus in mauris fermentum, et aliquam risus commodo. Praesent a
 
     <div class="pastel-quote">
         your eyes taste like candied grapes
-        you should hear the sound they make when they <i>pop</i>
+        <br>you should hear the sound they make when they <i>pop</i>
     </div>
 
 </div>
