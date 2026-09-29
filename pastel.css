@@ -43,7 +43,7 @@ body {
 /* FLOATING BOTTOM-LEFT IMAGE */
 .pastel-flower {
     position: absolute;
-    left: -20px;
+    left: -45px;
     bottom: 0;
     width: 180px;
     height: auto;
@@ -74,8 +74,6 @@ body {
 
 /* BODY TEXT */
 .pastel-body {
-    position: relative;
-    z-index: 5;
     width: 500px;
     margin: 0 auto;
     padding: 140px 20px 20px 20px;
