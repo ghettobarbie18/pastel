@@ -47,14 +47,14 @@ body {
     bottom: 0;
     width: 180px;
     height: auto;
-    z-index: 2;
+    z-index: 1;
     pointer-events: none;
 }
 
 /* TEXT BOX */
 .pastel-text {
     position: relative;
-    z-index: 5;
+    z-index: 1;
     width: 550px;
     min-height: 350px;
     margin: 0 auto;
@@ -74,6 +74,8 @@ body {
 
 /* BODY TEXT */
 .pastel-body {
+    position: relative;
+    z-index: 5;
     width: 500px;
     margin: 0 auto;
     padding: 140px 20px 20px 20px;
