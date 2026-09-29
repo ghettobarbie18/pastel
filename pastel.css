@@ -85,11 +85,11 @@ body {
 /* TITLE */
 .pastel-title {
     text-align: center;
-    font-size: 50px;
+    font-size: 80px;
     color: #b47c92;
     letter-spacing: 4px;
     font-family: "Fleur De Leah", cursive;
-    margin-top: 5px;
+    margin-top: -10px;
     margin-bottom: 8px;
     background: linear-gradient(
         to right,
@@ -108,9 +108,10 @@ body {
 /* QUOTE */
 .pastel-quote {
     text-align: center;
-    font-size: 20px;
+    font-size: 40px;
     font-style: italic;
     font-family: "Lovers Quarrel", cursive;
     color: #a98b96;
     margin-bottom: 0;
+    margin-top: -10px;
 }
