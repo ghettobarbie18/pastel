@@ -41,7 +41,7 @@ body {
 /* FLOATING BOTTOM-LEFT IMAGE */
 .pastel-flower {
     position: absolute;
-    left: -60px;
+    left: -40px;
     bottom: 0;
     width: 180px;
     height: auto;
